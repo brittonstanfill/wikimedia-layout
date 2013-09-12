@@ -10,3 +10,68 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+strong {
+	font-weight: bold;
+}
+
+body {
+	width:80%;
+	margin:0 auto;
+	font-family: sans-serif;
+}
+
+
+.intro p{
+	font-size:19px;
+	line-height: 34px;
+}
+
+.intro a,.intro a:active,.intro a:focus {
+	text-decoration: none;
+	color:#0645AD;
+}
+
+.title {
+	font-weight:bold;
+	font-size:20px;
+	text-align: right;
+	margin:40px 0px;
+}
+
+.item {
+	float:left;
+	width:160px;
+	height:160px;
+	margin:20px;
+}
+
+.footer {
+	clear:both;
+	border-top:1px solid #ccc;
+	padding-top:10px;
+	font-size:80%;
+	text-align: center;
+	width:80%;
+	margin:10px auto;
+}
+
+.footer ul{
+	list-style: none; 
+	position: relative; 
+	float: left; 
+	display: block; 
+	left: 50%; 
+}
+.footer li{
+	position: relative; 
+	float: left; 
+	display: block; 
+	right: 50%;
+	margin:10px;
+}
+
+.footer a{
+	text-decoration: none;
+	color:#0645AD;
+}
