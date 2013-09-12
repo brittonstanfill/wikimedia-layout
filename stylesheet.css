@@ -16,11 +16,16 @@ strong {
 }
 
 body {
-	width:80%;
+	width:70%;
 	margin:0 auto;
 	font-family: sans-serif;
+	padding:30px;
 }
 
+
+.grid-container {
+	width:100%;
+}
 
 .intro p{
 	font-size:19px;
@@ -43,8 +48,15 @@ body {
 	float:left;
 	width:160px;
 	height:160px;
-	margin:20px;
+	margin:30px;
+	/*margin-right:60px;
+	margin-bottom:60px;*/
 }
+/*
+img {
+	max-width:100%;
+	height:auto;
+}*/
 
 .footer {
 	clear:both;
